@@ -13,6 +13,6 @@ class CouponController < ApplicationController
     redirect_to coupon_path(@coupon)
   end
   def new
-    @coupon = Coupon.new
+    
   end
 end
