@@ -1,6 +1,7 @@
 class CouponsController < ApplicationController
   def index
     @coupons = Coupon.all
+    binding.pry
   end
   def show
     @coupon = Coupon.find(params[:id])
